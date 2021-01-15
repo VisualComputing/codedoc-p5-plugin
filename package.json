@@ -39,5 +39,5 @@
   "devDependencies": {
     "@codedoc/core": "^0.2.11",
     "typescript": "^3.9.2"
-  },
+  }
 }
