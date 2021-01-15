@@ -1,0 +1,43 @@
+{
+  "name": "codedoc-p5-plugin",
+  "version": "0.1.0",
+  "description": "codedoc p5 markdown plugin",
+  "main": "dist/es5/index.js",
+  "module": "dist/es6/index.js",
+  "types": "dist/es6/index.d.ts",
+  "sdhTransport": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-es5": "tsc -p conf/typescript/es5.json",
+    "build-es6": "tsc -p conf/typescript/es6.json",
+    "build": "npm run build-es5 && npm run build-es6"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist/es6",
+    "dist/es5"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisualComputing/codedoc-p5-plugin.git"
+  },
+  "keywords": [
+    "codedoc",
+    "p5",
+    "markdown",
+    "plugin"
+  ],
+  "author": "Jean Pierre Charalambos",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/VisualComputing/codedoc-p5-plugin/issues"
+  },
+  "homepage": "https://github.com/VisualComputing/codedoc-p5-plugin#readme",
+  "peerDependencies": {
+    "@codedoc/core": ">=0.2.5"
+  },
+  "devDependencies": {
+    "@codedoc/core": "^0.2.11",
+    "typescript": "^3.9.2"
+  },
+}
