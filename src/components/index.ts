@@ -1,0 +1,1 @@
+export { P5 } from './hero';
