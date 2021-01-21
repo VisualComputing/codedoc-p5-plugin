@@ -39,10 +39,10 @@ export function codingBlog() {
 }
 // */
 
-//var repository: string;
-
-// /*
-export function p5Plugin(/* repo: string */) {
+/*
+// var repository: string;
+// export function p5Plugin(repo: string) {
+export function p5Plugin() {
   //repository = repo;
   return function(): ConfigOverride {
     return {
@@ -55,7 +55,7 @@ export function p5Plugin(/* repo: string */) {
 }
 // */
 
-/*
+// /*
 export function p5Plugin(): ConfigOverride {
   return {
     markdown: {

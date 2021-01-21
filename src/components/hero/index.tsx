@@ -33,7 +33,7 @@ export function P5(
 ) {
   const classes = this.theme.classes(P5Style); // --> fetch the theme-based classes
   // custom vars
-  let version: string = options.version ? options.version : "1.1.9";
+  let version: string = options.version ? options.version : "1.2.0";
   //let repo: string = config.misc?.github?.repo ? "/".concat(config.misc?.github?.repo) : "fixrepovar";
   //let repo: string = "/".concat(repository);
   let repo: string = "/".concat('p5.quadrille.js');
